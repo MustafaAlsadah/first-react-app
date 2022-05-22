@@ -1,0 +1,70 @@
+.logo-side{
+    display: flex;
+    align-items: center;
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+.logo-txt {
+    font-size: 22px;
+    margin-left: 6px;
+}
+
+.logo-side > img{
+    width: 28px;
+}
+
+.navbar{
+    background-color: #21222A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 27px 0px 27px;
+}
+
+body, html{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.annotation-side{
+    color: #DEEBF8;
+}
+
+.logo-txt{
+    font-size: 22.5px;
+}
+
+.annotation-txt{
+    font-size: 16px;
+}
+
+body{
+    color: white;
+    background-color: #282D35;
+}
+
+.main-content-container {
+    margin-top: 57px;
+    margin-left: 27px;
+}
+
+.main-content-container > h1{
+    letter-spacing: -0.05em;
+    font-size: 39px;
+}
+
+.main--facts-list li{
+    padding-block: 9px;
+}
+
+.main--facts-list li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+.main--facts-list {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
